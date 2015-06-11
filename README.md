@@ -10,7 +10,7 @@ Microblogging Social Network (Twitter)
 
 After completing this assignment, you should…
 
-* Understand gems and their place in Rails developmeny
+* Understand gems and their place in Rails development
 * Understand Relationships between models
 * Understand Personalization
 * Understand Authentication
@@ -38,7 +38,6 @@ After completing this assignment, you be able to effectively use
   * a user model 
   * a post model that users can write
   * a follow model
-  * a signup wizard
 
 ### Requirements
 
