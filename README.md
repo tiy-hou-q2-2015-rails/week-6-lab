@@ -22,10 +22,9 @@ After completing this assignment, you should…
 After completing this assignment, you be able to effectively use
 
 * authentication, sessions, and `current_user`
-* `bootstrap_sass`
+* `bootstrap-sass`
 * `acts_as_follower`
 * `kaminari`
-* `wicked` wizards
 * Validations
 * Controllers
 
@@ -73,10 +72,10 @@ After completing this assignment, you be able to effectively use
 * Getting the list of messages for You + people you follow is tricky'ish. Think of it like this:
 
 ```ruby
-class Post
-  def self.timeline(user)
-    follower_ids = user.followers.map(&:id)
-    all_ids= follower_ids << user.id
+class User
+  def timeline
+    follower_ids = following_users.pluck(:id)
+    all_ids = follower_ids << user.id
     Post.where(user_id: all_ids).order("created_at DESC")
   end
 end
