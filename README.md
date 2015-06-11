@@ -61,7 +61,8 @@ After completing this assignment, you be able to effectively use
 * User can view a profile (/users/jwo)
 * Users can block users for being a-holes
 * Users can search for posts
-* People can put the URL of a picture in for their picture and it will be shown on their profile. Or even better, use Identicons (https://en.wikipedia.org/wiki/Identicon). You can have another site create them (https://github.com/cupcake/sigil) or make them yourself (https://rubygems.org/gems/identicon).
+* Users can upload a photo of themselvs
+* Users can add a photo to a post
 
 
 ## Notes
